@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body,
+html {
+    background-color: #567;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    min-height: 100vh;
+}
+
+.main1 {
+    max-width: 690px;
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.01);
+    text-align: center;
+}
+
+
+.main1 a {
+    text-decoration: none;
+    color: gray;
+    font-size: 50px;
+    transition: 0.5s;
+}
+
+.main1 #a2 {
+    margin-left: 15px;
+}
+
+.main1 #a3 {
+    margin-right: 15px;
+}
+
+.main1 a:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: lightblue;
+    box-shadow: 5px 5px 5px 5px lightblue;
+    transition: 0.5s;
+    border-radius: 5px 5px;
+    font-size: 25px;
+}
+
+.main1 .all_box {
+    border-radius: 5px;
+    justify-content: space-between;
+    display: flex;
+    margin: 0px;
+    margin-left: -5px;
+}
+
+.main1 .all_box .box {
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.main1 .all_box .box textarea {
+    width: 25vh;
+    min-height: 18vh;
+    resize: none;
+    color: #b7b6b6;
+    font-size: 25px;
+    padding: 10px 15px;
+    transition: 0.5s;
+}
+
+.main1 .all_box .box textarea:focus:not(:read-only) {
+    box-shadow: 0px 0px 15px 15px lightblue;
+    transition: 0.5s;
+    z-index: 10;
+}
+
+::placeholder {
+    margin-left: -15px;
+    color: #b7b6b6;
+}
+
+.main1 .all_buttons {
+    border-radius: 5px;
+    justify-content: space-between;
+    margin: 0px;
+    margin-left: -5px;
+    width: 50vh;
+    min-height: 5vh;
+    border: 1px solid black;
+}
+
+.main1 .all_buttons .box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main1 .all_buttons a {
+    font-size: 15px;
+}
+
+.main1 .all_buttons .box .sol {
+    float: left;
+    margin-top: 3%;
+    margin-left: 5px;
+}
+
+.main1 .all_buttons .box .orta {
+    float: none;
+    margin-top: 3%;
+}
+
+.main1 .all_buttons .box .sag {
+    float: right;
+    margin-top: 3%;
+    margin-right: 5px;
+}
+
+.main1 .translate .translate2 {
+    width: 102%;
+    height: 55px;
+    background-color: lightblue;
+    color: white;
+    border: 0px;
+    transition: 0.5s;
+}
+
+.main1 .translate .translate1 {
+    width: 50%;
+    height: 25px;
+    margin-top: 15px;
+    background-color: lightblue;
+    color: white;
+    border: 0px;
+    transition: 0.5s;
+}
+
+.main1 .translate .translate1:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.main1 .translate .translate2:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
